@@ -9,7 +9,7 @@
 class i_LCD_Commands {
 public :
     virtual void Set_Cursor_Position( uint8_t row_index, uint8_t colomn_index ) = 0 ;
-    virtual void Print( char* text ) = 0 ;
+    virtual void Print( const char* text ) = 0 ;
     virtual void Print_Special_Character( E_SPECIAL_CHARACTER character) = 0 ;
     virtual void Hide_Cursor( void ) = 0 ;
     virtual void Show_Cursor( void ) = 0 ;
